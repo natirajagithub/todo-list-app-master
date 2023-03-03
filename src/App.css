@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(4, 88, 71);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.OuterBox{
+    display: flex;
+    justify-content: center;
+}
+.MainBox{
+   background-color: rgb(81, 135, 147);
+   height: 40vh;
+   width: 50%;
+   border-radius: 10px;
+
+}
+.Inputs{
+    display: flex;
+   justify-content: center;
+}
+button{
+      margin: 1px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: large;
+      background-color: rgb(255, 234, 0);
+      border: 2px solid black;
+      border-radius: 50%;
+}
+button:hover{
+    background-color: rgb(27, 175, 175);
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(163, 244, 151);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.Data li{
+  font-size: 20px;
+  color: rgb(251, 246, 246);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    list-style-type: none;
+}
+.Item-detail{
+    display: flex; 
+    justify-content: flex-start;
+}
+.Item-detail i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: hsl(357, 56%, 88%);
+    margin: 0 20px 0 50px;
+    box-shadow:  5px 5px 15px -5px rgba(0, 0,0, 0.3);
+}
+.Item-detail i:hover{
+    color: rgb(249, 10, 10);
+}
+h1{
+    /* background-color: azure; */
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+
